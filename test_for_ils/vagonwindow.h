@@ -14,6 +14,7 @@ public:
 
 private:
     Ui::VagonWindow ui;
+    QSqlRelationalTableModel *model;
 
 };
 
